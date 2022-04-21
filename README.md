@@ -10,5 +10,5 @@
 ## Part 2 - GitHub Actions and DockerHub
   - In this section of the project, I created a public DockerHub repository.
   - To authenticate with DockerHub via CLI, I use the DockerHub username and password.
-  - When configuring the GitHub Secrets, two were made named DOCKER_USERNAME and DOCKER_PASSWORD containing the credentials of my DockerHub login mentioned above.
+  - When configuring the GitHub Secrets, two were made named `DOCKER_USERNAME` and `DOCKER_PASSWORD` containing the credentials of my DockerHub login mentioned above.
   - The Github workflow that was created builds and pushes docker images to DockerHub when I log in to my DockerHub. Additionally, `.yml` file was based off a template provided with a few changes to perform what was needed to be done, such things includes making sure the file uses the GitHub secrets that I have set and pushing the images to my public repository that was created in DockerHub.
