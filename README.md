@@ -19,4 +19,4 @@
   - A notifier was made by going to the bell icon and navigating to Manage notifications->Notification settings. And I can adjust the settings to listen to any changes made.
 ## Part 4 - Diagramming
   - I created a diagram that visualizes how the entire thing works shown below:
-![Image]()
+![Image](https://user-images.githubusercontent.com/76796854/164778084-f46f3aac-693f-4918-aa14-a7808e08d62e.png)
