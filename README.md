@@ -15,3 +15,4 @@
 ## Part 3 - Deployment
   - I created a script named `pull-restart.sh` that kills old running containers, pulls the image host from DockerHub, and then runs a new image.
   - A webhooks definition `.json` file was created that executes the `pull-restart.sh` script and sets the `/var/webhooks` directory as the command working directory.
+  - I've found a way to add a webhook to GitHub by going to Settings->Webhooks->Add Webhook.
