@@ -14,3 +14,4 @@
   - The Github workflow that was created builds and pushes docker images to DockerHub when I log in to my DockerHub. Additionally, `.yml` file was based off a template provided with a few changes to perform what was needed to be done, such things includes making sure the file uses the GitHub secrets that I have set and pushing the images to my public repository that was created in DockerHub.
 ## Part 3 - Deployment
   - I created a script named `pull-restart.sh` that kills old running containers, pulls the image host from DockerHub, and then runs a new image.
+  - A webhooks definition `.json` file was created that executes the `pull-restart.sh` script and sets the `/var/webhooks` directory as the command working directory.
