@@ -16,3 +16,7 @@
   - I created a script named `pull-restart.sh` that kills old running containers, pulls the image host from DockerHub, and then runs a new image.
   - A webhooks definition `.json` file was created that executes the `pull-restart.sh` script and sets the `/var/webhooks` directory as the command working directory.
   - I've found a way to add a webhook to GitHub by going to Settings->Webhooks->Add Webhook.
+  - A notifier was made by going to the bell icon and navigating to Manage notifications->Notification settings. And I can adjust the settings to listen to any changes made.
+## Part 4 - Diagramming
+  - I created a diagram that visualizes how the entire thing works shown below:
+![Image]()
